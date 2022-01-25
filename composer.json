@@ -6,7 +6,8 @@
         "psr-4": {
             "Horus\\App\\": "app/",
             "Horus\\Core\\": "core/",
-            "Horus\\Config\\": "config/"
+            "Horus\\Config\\": "config/",
+            "Horus\\Views\\": "resources/views/"
         }
     },
     "authors": [
@@ -16,6 +17,6 @@
         }
     ],
     "require": {
-        "twig/twig": "3.0"
+        "twig/twig": "~3.0"
     }
 }
