@@ -6,8 +6,7 @@
         "psr-4": {
             "Horus\\App\\": "app/",
             "Horus\\Core\\": "core/",
-            "Horus\\Config\\": "config/",
-            "Horus\\Views\\": "resources/views/"
+            "Horus\\Config\\": "config/"
         }
     },
     "authors": [
@@ -15,8 +14,5 @@
             "name": "Mario Aurelio Gasca Lopez",
             "email": "hola@mariogasca.com"
         }
-    ],
-    "require": {
-        "twig/twig": "~3.0"
-    }
+    ]
 }

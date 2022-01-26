@@ -7,12 +7,12 @@
  */
 
  /**
-  * Composer
+  * Composer autoload
   */
   require dirname(__DIR__) . '/vendor/autoload.php';
   
   /**
-   * Error y Excepciones handling
+   * Error y Excepcions handling
    */
   session_start();
   error_reporting(E_ALL);
