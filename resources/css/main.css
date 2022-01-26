@@ -1,0 +1,46 @@
+:root{
+    --main-bg-color:#FF9800;
+    --dark-main-bg-color:#F57C00;
+    --light-main-bg-color:#FFE0B2;
+    --main-text-color:#212121;
+    --main-accent-color:#03A9F4;
+    --main-secondary-text-color:#757575;
+    --main-divider-color:#BDBDBD;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.primary-text{
+    color:var(--main-bg-color)
+}
+.horus-logo{
+    max-width: 190px;
+}
+.box{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-content, .box-content-body{
+    width: 100%;
+    height: 100%;
+    display: block;    
+}
+.box-content-header{
+    width: 100%;
+    height: auto;
+}
+.box-content-header .horus-logo{
+    margin: auto;
+    display: flex;
+}
+.box-content-footer{
+
+    bottom: 0;
+}
+
