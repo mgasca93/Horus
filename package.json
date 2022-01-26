@@ -1,0 +1,25 @@
+{
+  "name": "horus",
+  "version": "1.0.0",
+  "description": "Microframework basado en modelo arquitectonico MVC para el desarrollo de aplicaciones web realizadas en PHP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgasca93/Horus.git"
+  },
+  "keywords": [
+    "Framework"
+  ],
+  "author": "Mario Aurelio Gasca López",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgasca93/Horus/issues"
+  },
+  "homepage": "https://github.com/mgasca93/Horus#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

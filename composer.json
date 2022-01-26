@@ -1,0 +1,18 @@
+{
+    "name": "mgasca/horus",
+    "description": "Microframework basado en la arquitectura de MVC para el desarrollo de aplicaciones web hechas en PHP.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Horus\\App\\": "app/",
+            "Horus\\Core\\": "core/",
+            "Horus\\Config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mario Aurelio Gasca Lopez",
+            "email": "hola@mariogasca.com"
+        }
+    ]
+}
