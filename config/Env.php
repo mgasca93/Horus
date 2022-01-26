@@ -34,6 +34,18 @@ class Env
      */
     const DB_PASSWORD = 'db_passwd';
 
+     /**
+     * Database driver
+     * @var string
+     */
+    const DB_DRIVER = 'mysql';
+
+     /**
+     * Database driver
+     * @var string
+     */
+    const DB_CHARSET = 'utf8mb4';
+
     /**
      * Show or hide error messages on screen
      * @var boolean
